@@ -12,7 +12,7 @@ const Navbar = ({ currentUser, setCurrentUser }) => {
 
   return (
     <Nav justify="space-between" wrap="wrap">
-      <Logo to="/">YBK Library</Logo>
+      <Logo to="/">Clarus Library</Logo>
       <HamburgerIcon onClick={() => setShowMenu(!showMenu)}>
         {menuIcon}
       </HamburgerIcon>
